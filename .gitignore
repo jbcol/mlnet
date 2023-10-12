@@ -1,0 +1,25 @@
+# Ignore virtual environment directories
+venv/
+.venv/
+
+# Ignore compiled Python files
+*.pyc
+
+# Ignore log files
+*.log
+
+# Ignore local development settings
+.env
+
+# Ignore operating system or editor-specific files
+.DS_Store
+.vscode/
+
+# Ignore database files
+src/kddcup.data_10_percent.gz
+src/kddcup.data_10_percent
+src/kddcup.data.gz
+src/kddcup.data
+
+# Ignore pycache
+src/__pycache__/
